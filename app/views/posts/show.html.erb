@@ -1,0 +1,9 @@
+<%= content_for :head do %>
+  <title><%= @title %></title>
+<% end %>
+<h1><%= @title %></h1>
+<div><%= @date %></div>
+
+<div>
+  <%= @content.html_safe %>
+</div>

@@ -1,0 +1,12 @@
+<div>
+  <% @posts.each do |post| %>
+    <a href="<%= post["id"] %>">
+      <h2>
+        <%= post["title"] %>
+      </h2>
+      <div>
+        <%= post["date"] %>
+      </div>
+    </a>
+  <% end %>
+</div>
