@@ -3,22 +3,14 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+install ruby 2.7.5
+install bundler
+## Run
 
-* Ruby version
+```code
+bundle install
+./bin/dev
+```
+Development workflow
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+No actioncable, no active storage, no mailer, no activemodel, etc, Bareboned like a dog.
